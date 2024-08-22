@@ -13,6 +13,6 @@ public class sum_of_numbers
             sum=sum+b ;
         System.out.println("the sum is"+sum);
         }
-      
+        s.close();
     }
 }

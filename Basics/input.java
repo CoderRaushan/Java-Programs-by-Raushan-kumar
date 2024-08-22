@@ -9,5 +9,6 @@ public class input {
         int sum=a+b;
         System.out.print("the sum is:");
         System.out.println(sum);
+        s.close();
     }
 }

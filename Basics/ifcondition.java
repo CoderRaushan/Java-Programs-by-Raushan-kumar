@@ -11,5 +11,6 @@ public class ifcondition
        {
         System.out.println("Name:Raushan kumar\nCRN:2217063\nURN:2203751\nBranch:ECE(A2)");
        }
+       s.close();
     }
 }

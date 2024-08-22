@@ -28,6 +28,7 @@ public class additon_of_matrix {
                     b[i][j] = Y.nextInt();
                 }
              }
+            
         for (int i = 1; i <= 3; i++) 
         {
             for (j = 1; j <= 3; j++)
@@ -44,5 +45,7 @@ public class additon_of_matrix {
             }
             System.out.println("\t");
         }
+        T.close();
+        Y.close();
     }
 }

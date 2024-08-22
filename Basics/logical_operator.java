@@ -9,5 +9,6 @@ public class logical_operator
        b=s.nextInt();
         System.out.println(a==b && a!=b);
         System.out.println(a==b || a!=b);
+        s.close();
     }
 }

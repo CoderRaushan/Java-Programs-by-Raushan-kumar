@@ -13,6 +13,6 @@ public class relational
         System.out.println(a<=b);
         System.out.println(a<b);
         System.out.println(a<b);
-
+        s.close();
     }
 }

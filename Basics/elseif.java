@@ -20,5 +20,6 @@ public class elseif
         {
             System.out.println("c is grestest number");
         }
+        s.close();
     }
 }

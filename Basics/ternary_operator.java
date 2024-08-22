@@ -8,5 +8,6 @@ public class ternary_operator {
         int c = s.nextInt();
         int r = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
         System.out.println(r);
+        s.close();
     }
 }

@@ -5,11 +5,12 @@ public class for_loop
     {
         int i,x;
         System.out.print("Enter any number:");
-        Scanner s=new Scanner (System .in);
-        x=s.nextInt();
+        Scanner S=new Scanner (System.in);
+        x=S.nextInt();
         for(i=1;i<=10;i++)
         {
             System.out.println(x*i);
         }
+        S.close();
     }
 }

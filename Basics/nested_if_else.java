@@ -13,11 +13,12 @@ public class nested_if_else {
         System.out.println(" you got ECE branch");
       }
     } else {
-      if (a >= 60 && a<70) {
+      if (a >= 60 && a < 70) {
         System.out.println("you got CE branch ");
       } else {
         System.out.println("you got machanical branch");
       }
+       sc.close();
     }
   }
 }

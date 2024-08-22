@@ -52,6 +52,8 @@ public class switch_arithemetic_operator
                 break;
             default:
                 System.out.println("nothiing");
+                s.close();
+                q.close();
         }
     }
 }

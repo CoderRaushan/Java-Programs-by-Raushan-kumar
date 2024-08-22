@@ -12,5 +12,6 @@ public class method {
         Scanner s = new Scanner(System.in);
         String d = s.nextLine();
         myname(d);
+        s.close();
     }
 }

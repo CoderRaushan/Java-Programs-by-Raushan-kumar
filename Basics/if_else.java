@@ -10,6 +10,6 @@ public class if_else {
         } else {
             System.out.println("wrong password!");
         }
-
+         s.close();
     }
 }

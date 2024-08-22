@@ -13,5 +13,6 @@ public class method_sum {
         int d = s.nextInt();
         int e = s.nextInt();
         mysum(d, e);
+        s.close();
     }
 }

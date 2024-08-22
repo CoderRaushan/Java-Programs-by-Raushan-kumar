@@ -11,5 +11,7 @@ public class do_while_loop {
             ++x;
         }
         while(x<=100);
+        s.close();
     }
+    
 }
