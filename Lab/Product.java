@@ -1,14 +1,11 @@
 public class Product 
 { 
-     
-    private String name;
-    private int price;
-    private int quantity;
-    public Product(String name)
+    public  String name;
+    public  int price;
+    public  int quantity;
+    public  Product(String name)
     {
         this.name=name;
-        this.price=0;
-        this.quantity=0;
     }
     public Product(String name,int price)
     {
@@ -22,29 +19,28 @@ public class Product
         this.quantity=quantity;
     }
 
-    public static int calculatePrice()
+    public  int calculatePrice()
     {
        return (price*quantity);
     }
     
-    public static void Display()
+    public void Display()
     {
         int total=calculatePrice();
         System.out.println("Product Name: " + name);
         System.out.println("Price per Unit: " + price);
         System.out.println("Quantity: " + quantity);
-        System.out.println("Total Price: " + totalPrice);
+        System.out.println("Total Price: " + total);
     }
-
 
     public static void main(String[] args)
     {
-        // Creating a product with name and price
-        Product p1 = new Product("Laptop", 50000, 2);
+
+        Product p1 = new Product("Laptop");
         p1.Display();
 
-        // Creating a product with only name
-        Product p2 = new Product("Mouse");
+        Product p2 = new Product("Mouse",55,9);
         p2.Display();
+        // Display();
     }
 };
