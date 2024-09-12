@@ -22,6 +22,7 @@ public class access_modifires
         example.display();
         // Accessing publicVar
         System.out.println("Access from Main: " + example.publicVar); // Accessible
+        System.out.println("Access from Main: " + example.protectedVar);
         // Accessing protectedVar, defaultVar, and privateVar
         // System.out.println("Access from Main: " + example.protectedVar); // Not accessible if in a different package
         // System.out.println("Access from Main: " + example.defaultVar); // Not accessible if in a different package
