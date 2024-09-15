@@ -27,7 +27,6 @@ public class pattern
                 {
                     System.out.print(" ");
                 }
-    
                 else 
                 {
                     System.out.print("*");
