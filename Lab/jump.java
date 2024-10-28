@@ -1,9 +1,10 @@
 class jump
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int x=2;
-        int y=0;
-        for(;y<10;++y)
+        int y=12;
+        for(;y<20;++y)
         {
             if(y%x==0)
             continue;
